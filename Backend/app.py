@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-GEMINI_API_KEY = 'AIzaSyBpDwZ3qIZ2U8TnDc5G316x_FTt68d1wUc'
+GEMINI_API_KEY = 'Your-Google Gemini API Key'
 GEMINI_API_URL = 'https://api.google.com/gemini/v1/chat/completions'  # Replace with actual URL
 
 @app.route('/chat', methods=['POST'])
